@@ -2,9 +2,9 @@
 
 Lyricsfetcher_musixmatch allows to get the lyrics for your favourite songs right on your terminal. You just have to provide the name of the song and the artist. Implemented using python with requests and beautifulsoup4
 
-# Requirements
+## Requirements
 
-# 1. Python 3
+### 1. Python 3
 
    Arch Linux
     
@@ -23,7 +23,7 @@ Lyricsfetcher_musixmatch allows to get the lyrics for your favourite songs right
     
    After installation use `python --version` to check whether python is properly installed.
   
-# 2. Python-pip
+### 2. Python-pip
 
    Arch Linux
     
@@ -37,7 +37,7 @@ Lyricsfetcher_musixmatch allows to get the lyrics for your favourite songs right
   
        sudo dnf install python3-pip
     
-# 3. Requests & BeautifulSoup Library
+### 3. Requests & BeautifulSoup Library
 
        pip install requests
        pip install beautifulsoup4
