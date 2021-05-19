@@ -13,7 +13,7 @@ def get_lyrics(url1):
     req = requests.get(url1, headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'})
     if (req.status_code != 404):
         print (f"\nLyrics found! 😄\nDownloading lyrics from {url1}")
-        content = requests.get(url1, headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'}).content
+        content = req.content
         soup = bs4.BeautifulSoup(content, features="html.parser")
         lyrics = soup.find_all("span", {"class" : "lyrics__content__ok"})
         for i in lyrics:
