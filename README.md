@@ -21,7 +21,7 @@ Lyricsfetcher_musixmatch allows you to get the lyrics for your favourite songs r
   
        sudo dnf install python3
     
-   After installation use `python --version` to check whether python is properly installed.
+   After installation, use `python --version` to check whether python is properly installed.
   
 ### 2. Python-pip
 
